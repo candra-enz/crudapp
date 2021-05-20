@@ -13,4 +13,14 @@
 </head>
 
 <body>
-    <div class="container-fluid bg-warning">
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid d-flex justify-content-between px-5">
+            <a class="navbar-brand" href="#">Contact App</a>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+
+    </nav>
+    <div class="container-fluid">
